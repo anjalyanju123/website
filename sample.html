@@ -15,38 +15,54 @@
         background-clip:content-box;
         border-top-color: blue;
         box-shadow: 5px 5px 5px  rgb(96, 40, 149);
-    
-
      }
-     .image-class img{
-        margin-top: 60px;
-        margin-left: 500px;
-        width: 550px;
-        height: 400px;
-        box-shadow: 50px 60px 5px blueviolet;
-       transition-property: background-color;
-       transition-duration: 200ms;
-       transition-delay: 200ms;
-    
-     }
+  
     .menu-class {
         display: flex;
-      
     }
   .menu-class li{
     padding-right: 40px;
   }
   .hello-world{
-    transition: background-color 2s ease-out;
-  
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+  }
+  .hello-world:hover{
+    background-color: blueviolet;
+    width: 200px;
   }
 .hello-world h3{
-    background-color: rgb(153, 255, 0);
-    width: 150px;
     text-align: center;
-    height: 100px;
-    padding-top: 50px;
-   
+}
+.anjaly{
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+}
+.anjaly:hover{
+  background-color: chartreuse;
+  width: 200px;
+}
+.anjaly p{
+   text-align: center;
+}
+.python{
+  background-color: rgb(64, 226, 43);
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, rotate 2s;
+}
+.python p{
+  text-align: center;
+}
+.python:hover{
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
 }
     </style>
 </head>
@@ -54,10 +70,6 @@
     <center>
     <button class="btn">Save</button>
     </center>
-    <div class="image-class">
-        <img src="sunset.jpg" alt="image1"> 
-</div>
-
 <ul class="menu-class">
     <li>home</li>
     <li>about</li>
@@ -65,6 +77,12 @@
 </ul>
 <div class="hello-world">
   <h3>Hello World</h3>
+</div>
+<div class="anjaly">
+   <h3>Anjaly</h3>
+</div>
+<div class="python">
+  <h3>python</h3>
 </div>
 </body>
 </html>
