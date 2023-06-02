@@ -11,21 +11,21 @@
      <div>
         <ul class="dashboard">
             <h3>BizBud</h3>
-            <li>Home</li>
-            <li>About</li>
-            <li>Speakers</li>
-            <li>Contact us</li>
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#div-3"> About</a></li>
+            <li><a href="#div-4"> Speakers</a></li>
+            <li><a href="#contact">Contact us</a></li>
             </ul>
      </div>
-     <div class="image-1">
+     <div class="image-1" id="home">
         <img src="/images/bg-1.jpg.webp" alt="image1">
      </div>
-     <div class="div-3">
+     <div class="div-3" id="div-3">
         <h1>About Us</h1>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
        <img src="/images/workshop.jpg.webp" alt="image7">
      </div>
-     <div class="div-4">
+     <div class="div-4" id="div-4">
         <h1>Speakers</h1>
         <img src="/images/person_1.jpg.webp" alt="image3">
         <img src="/images/person_2.jpg.webp" alt="image4">
@@ -38,14 +38,19 @@
          <li class="speaker4">Michael Fowler</li>
         </ul>
       </div>
-      <div class="contact">
+      <div class="contact" id="contact">
+      <form class="form" action="" method="post"></form>
          <h4>Contact us</h4>
-         <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
-         <form action="" method="post">
-         <input type="text" class="input1" name="name"  placeholder="Your Name" required=""><br>
-         <input type="text" class="input2" name="email" placeholder="anjalybiju049@gmail.com" required="">   
-         
-        </form>
+         <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
+            saepe eveniet ut et voluptates repudiandae</p>
+            <label for="name">Your name</label>
+         <input type="text" class="input1" name="name" placeholder="name" required=""><br>
+         <label for="email">E-mail</label>
+         <input type="text" class="input2" name="email" required="">   
+         <label for="name">Your message</label>
+         <input type="text" class="input3" name="message"  required="">
+       <button type="submit" value="save">submit</button>   
+       </form>
    </div>
 </body>
 </html>

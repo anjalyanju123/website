@@ -1,7 +1,7 @@
 .dashboard {
     display: flex;
     background-color: rgba(223, 230, 220, 0.711);
-    margin-top: 30px;
+    margin-top: 0px;
     padding-top: 20px;
     background-size: cover;
     height: 100px;
@@ -13,13 +13,18 @@
     font-size: 38px;
     padding-right: 40px;
 }
+.dashboard a{
+    text-decoration: none;
+}
 .dashboard h3{
+    margin: 0;
+    padding: 0;
     font-size: 50px;
     padding-left: 20px;
     padding-right: 30%;
 }
 .image-1{
-    background-image: url('/images/bg-1.jpg.webp');
+    background-image: url('/images/44.jpg.webp');
     background-size: 3000px;
     background-attachment: fixed;
     background-size: cover;
@@ -96,23 +101,72 @@
 .contact{
     background-color: rgba(17, 11, 79, 0.592);
     text-align: center;
-    height: 600px;
+    height: 800px;
 
 }
 .contact h4{
     font-size: 50px;
+    padding-top: 50px;
+    margin-right: 90px;
 }
 .contact p{
     font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: -30px;
     color: #bcbcd1;
     font-weight: 400;
 }
+.contact label{
+    margin-right: 200px;
+    font-size: 25px;
+    color: #020313;
+    top: 11px;
+    transition: all .2s ease;
+    transform-origin: 0 0;
+}
 .input1{
-    padding-top: 10px;
-    padding-left: 100px;
+    margin-left:40%; 
+    border: none;
+    display: block;
+    border-bottom: 2px solid #98b7c2;
+    width: 20%;
+    height: 43px;
+    font-size: 20px;
+    background:rgba(17, 11, 79, 0);
+    margin-bottom: 20px;
 }
 .input2{
-    padding-top: 10px;
-    padding-left: 100px;
+    margin-left:40%; 
+    border: none;
+    display: block;
+    border-bottom: 2px solid #98b7c2;
+    width: 20%;
+    height: 43px;
+    font-size: 20px;
+    background:rgba(17, 11, 79, 0);
+    margin-bottom: 20px;
+}
+.input3{
+    margin-left:40%; 
+    border: none;
+    display: block;
+    border-bottom: 2px solid #98b7c2;
+    width: 20%;
+    height: 43px;
+    font-size: 20px;
+    background:rgba(17, 11, 79, 0);
+    margin-bottom: 20px;
+}
+.contact button{
+    width: 162px;
+    height: 51px;
+    margin-top: 60px;
+    cursor: pointer;
+    background: 0 0;
+    font-size: 20px;
+    color: white;
+}
+.contact button:hover{
+    background-color: rgb(10, 10, 5);
 }
